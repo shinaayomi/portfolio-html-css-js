@@ -6,8 +6,45 @@
     <title>Adebisi A.</title>
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/styles/modules.css" />
+
+    <!-- ==== Style Switcher==== -->
+    <link
+      rel="stylesheet"
+      href="/styles/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="/styles/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="/styles/skins/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="/styles/skins/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="/styles/skins/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
     <link rel="stylesheet" href="/styles/style-swithcer.css" />
-    nk
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -40,11 +77,11 @@
                 <text
                   text-achor="middle"
                   dominant-baseline="middle"
-                  x="50%"
+                  x="32%"
                   y="50%"
                   class="text"
                 >
-                  Hello World
+                  Welcome To My World
                 </text>
               </symbol>
               <g>
@@ -138,13 +175,13 @@
 
     <!-- ==== Style switcher start==== -->
     <div class="style-switcher">
-      <div class="style-switcher-toggle s-icon">
-        <i class="fas fa-cog fa-skin"></i>
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
       </div>
       <div class="day-night s-icon">
         <i class="fas fa-moon"></i>
       </div>
-      <h4>Theme COlors</h4>
+      <h4>Theme Colors</h4>
       <div class="colors">
         <span class="color-1" onclick="setActiveStyle('color-1')"></span>
         <span class="color-2" onclick="setActiveStyle('color-2')"></span>
@@ -156,6 +193,7 @@
     <!-- ==== Style switcher end==== -->
 
     <!-- ===== JS ===== -->
+    <script src="/js/style-switcher.js"></script>
     <script src="/js/index.js"></script>
   </body>
 </html>

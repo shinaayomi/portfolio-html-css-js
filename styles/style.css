@@ -115,10 +115,13 @@ button:hover {
 /* outline text animation */
 .text_outline {
   width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
 }
 
 .text_outline .text {
-  font-size: 2.85rem;
+  font-size: 3rem;
   font-weight: 600;
   letter-spacing: 5px;
 }
