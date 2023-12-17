@@ -64,6 +64,7 @@
   height: 1.8rem;
   border-radius: 50%;
   border: 0.063rem solid red;
+  cursor: pointer;
 }
 
 .style-switcher .color-1 {

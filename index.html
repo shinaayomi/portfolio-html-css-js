@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adebisi A.</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/A.svg"
+      sizes="32x32"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/styles/modules.css" />
+    <link rel="stylesheet" href="/styles/skins/color-1.css" />
 
     <!-- ==== Style Switcher==== -->
     <link
@@ -57,7 +64,11 @@
     <main>
       <!-- start navigation -->
       <nav class="flex justify-between items-center">
-        <h1 class="gradient-title">AA</h1>
+        <!-- <h1 class="gradient-title">AA</h1> -->
+        <div>
+          <img src="/assets/A.svg" alt="" />
+        </div>
+
         <div class="flex">
           <a href="javascript:void(0)" class="gradient-text">Home</a>
           <a href="javascript:void(0)">Project</a>
@@ -68,7 +79,7 @@
       <!-- end navigation -->
 
       <!-- start Hero -->
-      <header>
+      <header class="heroSection">
         <div class="container">
           <h1 id="person">Welcome to my worldd</h1>
           <div>
@@ -115,7 +126,7 @@
             </span>
           </h2>
 
-          <h3>A Frontend Developer</h3>
+          <h3><span class="typing">A Frontend Developer</span></h3>
           <p>
             I transform design into a dynamic dimension that facilite
             simplicity, smooth, and good user experience. Doing logic is now a
@@ -193,6 +204,12 @@
     <!-- ==== Style switcher end==== -->
 
     <!-- ===== JS ===== -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="/js/style-switcher.js"></script>
     <script src="/js/index.js"></script>
   </body>

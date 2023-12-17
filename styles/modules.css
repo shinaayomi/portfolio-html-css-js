@@ -41,3 +41,9 @@
   background: linear-gradient(to left, rgba(var(--purple-2)), rgba(var(--red)));
   -webkit-background-clip: text;
 }
+
+/* start hero section */
+.heroSection {
+  min-height: 100lvh;
+}
+/* end hero section */

@@ -1,6 +1,3 @@
-// let projects = document.getElementById("projectLists");
-// projects.appendChild("H1");
-
 // start name animation
 const myName = document.querySelectorAll(".myName span");
 
@@ -11,3 +8,11 @@ myName.forEach(function (span, i) {
   span.style.animationDelay = mappedIndex * 0.25 + "s";
 });
 // end name animation
+
+/* ======================= typing animation =========================== */
+var typed = new Typed(".typing", {
+  strings: ["Web Development", "Frontend Developer", "MERN Stack"],
+  typeSpeed: 100,
+  BackSpeed: 60,
+  loop: true,
+});
