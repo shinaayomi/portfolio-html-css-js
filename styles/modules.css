@@ -47,3 +47,15 @@
   min-height: 100lvh;
 }
 /* end hero section */
+
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-wwidth: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
