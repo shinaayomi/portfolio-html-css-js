@@ -90,6 +90,7 @@ button {
     10 stretch;
   transition: 0.4s;
   padding: 15px 30px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -199,3 +200,38 @@ button:hover {
   }
 }
 /* end outline text animation */
+
+/* start marquee */
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-4rem * 7));
+  }
+}
+
+.marquee {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 55rem;
+  max-width: 100%;
+}
+.marquee-track {
+  animation: marquee-scroll 20s linear infinite;
+  display: flex;
+  gap: 3rem;
+  width: calc(4rem * 20);
+  max-width: 100%;
+}
+
+/* .slide {
+  height: 100px;
+  width: 250px;
+} */
+/* end marquee */
