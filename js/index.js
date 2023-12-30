@@ -11,7 +11,12 @@ myName.forEach(function (span, i) {
 
 /* ======================= typing animation =========================== */
 var typed = new Typed(".typing", {
-  strings: ["Web Development", "Frontend Developer", "MERN Stack"],
+  strings: [
+    "Web Developer",
+    "Frontend Developer",
+    "Frontend Engineer",
+    "MERN Stack",
+  ],
   typeSpeed: 100,
   BackSpeed: 60,
   loop: true,

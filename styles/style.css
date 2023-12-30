@@ -75,10 +75,11 @@ body {
   color: var(--text-black-900);
 }
 
-button {
+.gradient-btn {
   background: var(--btn-bg);
   color: var(--btn-color);
-  border: 2px solid transparent;
+  font-size: 0.85rem;
+  border: 0.1rem solid transparent;
   border-image: linear-gradient(
       to right,
       var(--grad-color1),
@@ -89,11 +90,11 @@ button {
     )
     10 stretch;
   transition: 0.4s;
-  padding: 15px 30px;
+  padding: 0.95rem 1.9rem;
   cursor: pointer;
 }
 
-button:hover {
+.gradient-btn:hover {
   color: var(--btn-color-hover);
   border-image: linear-gradient(
       to left,
@@ -107,7 +108,7 @@ button:hover {
   transform: scale(1.05);
 }
 
-#person {
+#welcome {
   font-family: "Clicker Script", cursive;
 }
 
