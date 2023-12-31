@@ -24,9 +24,9 @@
   --text-black-700: #504e70;
 
   /* btn */
-  --btn-bg: #000;
-  --btn-color: #cbcbcb;
-  --btn-color-hover: #fff;
+  --btn-color: #000;
+  --btn-bg: #cbcbcb;
+  --btn-color-hover: #3f3434;
   --grad-color1: #eeaf61;
   --grad-color2: #fb9062;
   --grad-color3: #ee5d6c;
@@ -56,6 +56,7 @@
   --btn-bg: #000;
   --btn-color: #cbcbcb;
   --btn-color-hover: #fff;
+
   --grad-color1: #eeaf61;
   --grad-color2: #fb9062;
   --grad-color3: #ee5d6c;
@@ -214,9 +215,11 @@ body {
 }
 
 .marquee {
+  display: grid;
+  align-items: center;
   background: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  height: 100px;
+  height: 5rem;
   margin: auto;
   overflow: hidden;
   position: relative;
