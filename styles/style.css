@@ -6,9 +6,9 @@
 }
 
 :root {
-  --purple: rgba(128, 0, 128, 0.3);
+  /* --purple: rgba(128, 0, 128, 0.3);
   --green: rgba(0, 128, 0, 0.2);
-  --cyan: rgba(0, 255, 255, 0.4);
+  --cyan: rgba(0, 255, 255, 0.4); */
   --purple-2: 121, 40, 202;
   --red: 255, 0, 128;
   /* font-size: 15px; */
@@ -35,9 +35,9 @@
 }
 
 .dark {
-  --purple: rgba(128, 0, 128, 0.3);
+  /* --purple: rgba(128, 0, 128, 0.3);
   --green: rgba(0, 128, 0, 0.2);
-  --cyan: rgba(0, 255, 255, 0.4);
+  --cyan: rgba(0, 255, 255, 0.4); */
   --purple-2: 121, 40, 202;
   --red: 255, 0, 128;
   /* font-size: 15px; */
@@ -217,7 +217,7 @@ body {
 .marquee {
   display: grid;
   align-items: center;
-  background: white;
+  background: var(--bg-black-100);
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
   height: 5rem;
   margin: auto;
