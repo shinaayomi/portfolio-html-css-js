@@ -126,7 +126,7 @@ body {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   filter: drop-shadow(); */
-  color: #fff;
+  /* color: #fff; */
 
   --wght-min: 32;
   --wght-max: 240;
