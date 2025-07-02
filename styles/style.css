@@ -186,7 +186,8 @@ body {
 
 .text_outline .outline {
   fill: none;
-  stroke: #ffffc0;
+  /* stroke: #ffffc0; */
+  stroke: var(--skin-color);
   stroke-width: 1.5px;
   stroke-dasharray: 100%;
   animation: outline_text 3.5s ease-in 3;
