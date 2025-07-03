@@ -190,7 +190,7 @@ body {
   stroke: var(--skin-color);
   stroke-width: 1.5px;
   stroke-dasharray: 100%;
-  animation: outline_text 3.5s ease-in 3;
+  animation: outline_text 3.5s ease-in 5;
   animation-fill-mode: forwards;
 }
 
