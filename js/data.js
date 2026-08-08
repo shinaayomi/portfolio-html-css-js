@@ -1,0 +1,170 @@
+const projectsData = [
+  {
+    id: 2,
+    title: "School Management Application",
+    description:
+      "School management application that allow access different users admin, parents, teachers, and students",
+    image: "../assets/projectscreenshots/school-management-app.png",
+    githubLink: "https://github.com/shinaayomiadebisi/school-management",
+    liveUrl: "",
+    tools: [
+      { name: "Typescript", class: "" },
+      { name: "Next.JS", class: "" },
+      { name: "Docker", class: "fa-docker" },
+      { name: "Postgresql", class: "" },
+      { name: "Prisma", class: "" },
+      { name: "Clerk", class: "" },
+      { name: "Tailwind", class: "" },
+      { name: "Javascript", class: "fa-js" },
+    ],
+  },
+  {
+    id: 3,
+    title: "MERN Real Estate",
+    description:
+      "A real estate platform where a user can sell, buy, or rent a home with availability of discount depending on the client.",
+    image: "../assets/projectscreenshots/real-estate.png",
+    githubLink: "https://github.com/shinaayomiadebisi/mern-estate",
+    liveUrl: "https://mern-estate-hujk.onrender.com",
+    tools: [
+      { name: "Node", class: "fa-node" },
+      { name: "Typescript", class: "" },
+      { name: "React", class: "fa-react" },
+      { name: "Redux", class: "" },
+      { name: "Cloudinary", class: "" },
+      { name: "Tailwind", class: "" },
+      { name: "Javascript", class: "fa-js" },
+    ],
+  },
+  {
+    id: 4,
+    title: "Amazon Clone",
+    description:
+      "A B2B or B2C platform where buyers and sellers meet with the purpose of trading",
+    image: "../assets/projectscreenshots/amazon-clone.png",
+    githubLink: "https://github.com/shinaayomiadebisi/amazon_clone_redux",
+    liveUrl: "https://amazon-first-clone-me.netlify.app",
+    tools: [
+      { name: "Next.js", class: "" },
+      { name: "Typescript", class: "" },
+      { name: "Redux", class: "" },
+      { name: "Cloudinary", class: "" },
+      { name: "Google Cloud Console", class: "" },
+      { name: "Tailwind", class: "" },
+      { name: "Javascript", class: "fa-js" },
+    ],
+  },
+  {
+    id: 5,
+    title: "Weather App",
+    description:
+      "A weather application that where you can search for a wether condition from country to a state a a city",
+    image: "../assets/projectscreenshots/weather-app.png",
+    githubLink: "https://github.com/shinaayomiadebisi/weather-app",
+    liveUrl: "https://shina-weather-app.netlify.app",
+    tools: [
+      { name: "Next.js", class: "" },
+      { name: "Typescript", class: "" },
+      { name: "Axios", class: "" },
+      { name: "React Query", class: "" },
+      { name: "Jotai", class: "" },
+      { name: "Tailwind", class: "" },
+      { name: "Javascript", class: "fa-js" },
+    ],
+  },
+  {
+    id: 6,
+    title: "Fire Extinguisher",
+    description:
+      "A fire extinguisher rental services platform that allows you to locate a fire extinguisher center when the service is needed",
+    image: "../assets/projectscreenshots/fire-extinguisher.png",
+    githubLink:
+      "https://github.com/shinaayomiadebisi/fire-extinguisher-retail-nuxt",
+    liveUrl: "https://fire-extinguisher-rent-center-nuxt.netlify.app",
+    tools: [
+      { name: "Nuxt.js", class: "" },
+      { name: "Vue", class: "" },
+      { name: "Pinia", class: "" },
+      { name: "Bootstrap", class: "" },
+      { name: "Javascript", class: "fa-js" },
+    ],
+  },
+  {
+    id: 7,
+    title: "Ambient Sound Mixer",
+    description:
+      "Create your perfect atmosphere with this beautiful and intuitive ambient sound mixer. Mix and match various nature sounds, white noise, and ambient audio to enhance focus, relaxation, or sleep.",
+    image: "../assets/projectscreenshots/screen.png",
+    githubLink: "https://github.com/shinaayomiadebisi/ambient-sound-mixer",
+    liveUrl: "https://ambient-sound-mixerr.netlify.app",
+    tools: [
+      { name: "Vanilla Javascript OOP", class: "" },
+      { name: "Javascript", class: "fa-js" },
+      { name: "Html5", class: "fa-html5" },
+      { name: "Css3", class: "fa-css3" },
+    ],
+  },
+  {
+    id: 8,
+    title: "Kanban js",
+    description:
+      "Kanban application built with vanilla javascript OOP, that allows creating tickets so easy in order to assign task to a user/ employee",
+    image: "../assets/projectscreenshots/kanban-js.png",
+    githubLink: "https://github.com/shinaayomiadebisi/kanban-js",
+    liveUrl: "https://kanbanjs-oop-vanilla.netlify.app/",
+    tools: [
+      { name: "Vanilla Javascript OOP", class: "" },
+      { name: "Javascript", class: "fa-js" },
+      { name: "Html5", class: "fa-html5" },
+      { name: "Css3", class: "fa-css3" },
+    ],
+  },
+];
+
+const certificationsData = [
+  {
+    id: 1,
+    title: "Legacy Responsive Web Design V8",
+    image:
+      "../assets/certificates/www.freecodecamp.org_certification_responsive-web-design.png",
+    certificateSiteUrl:
+      "https://www.freecodecamp.org/certification/fcc1a77dbe6-4a33-4918-8f21-0026456bc832/responsive-web-design",
+  },
+  {
+    id: 2,
+    title: "Fullstack MERN Real Estate",
+    image: "../assets/certificates/Fullstack-Mern-Real-Estate.jpg",
+    certificateSiteUrl:
+      "https://www.udemy.com/certificate/UC-37c0f482-4aca-4684-b31c-2685df5ebfeb/",
+  },
+  {
+    id: 3,
+    title: "C# Beginner Certification",
+    image: "../assets/certificates/CSharp-Beginner.jpg",
+    certificateSiteUrl:
+      "https://www.udemy.com/certificate/UC-e8d17b9e-7b38-4a09-8cee-ba6986b08616",
+  },
+  {
+    id: 4,
+    title: "C# Intermediate Certification",
+    image: "../assets/certificates/CSharp-Intermediate.jpg",
+    certificateSiteUrl:
+      "https://www.udemy.com/certificate/UC-5aa8e439-753a-4d61-8bf5-a06f31bfbf97",
+  },
+  {
+    id: 5,
+    title: "C# Professional Certification",
+    image: "../assets/certificates/CSharp-Professional.jpg",
+    certificateSiteUrl:
+      "https://www.udemy.com/certificate/UC-9c903acb-4367-4846-8c69-aba7e38f3ee2",
+  },
+  {
+    id: 6,
+    title: "Introduction To Cybersecurity",
+    image: "../assets/certificates/Introduction-to-cybersecurity.png",
+    certificateSiteUrl:
+      "https://hacka-demy.thinkific.com/certificates/buppq9plav",
+  },
+];
+
+export { projectsData, certificationsData };
