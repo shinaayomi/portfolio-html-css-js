@@ -23,8 +23,8 @@ export class LazyLoadImages {
           // Swap the data-src value into the src attribute to trigger loading
           img.src = img.dataset.src;
           // Optional: add a load event listener to remove a placeholder blur effect
-          img.classList.add("fade-in");
           img.addEventListener("load", () => {
+            img.classList.add("fade-in");
             img.classList.remove("lazy"); // remove the 'lazy' class after loading
             setTimeout(() => {
               img.classList.remove("fade-in");
