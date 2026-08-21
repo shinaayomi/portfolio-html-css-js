@@ -4,8 +4,7 @@ const projectsData = [
     title: "School Management Application",
     description:
       "School management application that allow access different users admin, parents, teachers, and students",
-    image:
-      "../portfolio-html-css-js/assets/projectscreenshots/school-management-app.png",
+    image: "../assets/projectscreenshots/school-management-app.png",
     githubLink: "https://github.com/shinaayomiadebisi/school-management",
     liveUrl: "",
     tools: [
@@ -24,7 +23,7 @@ const projectsData = [
     title: "MERN Real Estate",
     description:
       "A real estate platform where a user can sell, buy, or rent a home with availability of discount depending on the client.",
-    image: "../portfolio-html-css-js/assets/projectscreenshots/real-estate.png",
+    image: "../assets/projectscreenshots/real-estate.png",
     githubLink: "https://github.com/shinaayomiadebisi/mern-estate",
     liveUrl: "https://mern-estate-hujk.onrender.com",
     tools: [
@@ -42,8 +41,7 @@ const projectsData = [
     title: "Amazon Clone",
     description:
       "A B2B or B2C platform where buyers and sellers meet with the purpose of trading",
-    image:
-      "../portfolio-html-css-js/assets/projectscreenshots/amazon-clone.png",
+    image: "../assets/projectscreenshots/amazon-clone.png",
     githubLink: "https://github.com/shinaayomiadebisi/amazon_clone_redux",
     liveUrl: "https://amazon-first-clone-me.netlify.app",
     tools: [
@@ -61,7 +59,7 @@ const projectsData = [
     title: "Weather App",
     description:
       "A weather application that where you can search for a wether condition from country to a state a a city",
-    image: "../portfolio-html-css-js/assets/projectscreenshots/weather-app.png",
+    image: "../assets/projectscreenshots/weather-app.png",
     githubLink: "https://github.com/shinaayomiadebisi/weather-app",
     liveUrl: "https://shina-weather-app.netlify.app",
     tools: [
@@ -79,8 +77,7 @@ const projectsData = [
     title: "Fire Extinguisher",
     description:
       "A fire extinguisher rental services platform that allows you to locate a fire extinguisher center when the service is needed",
-    image:
-      "../portfolio-html-css-js/assets/projectscreenshots/fire-extinguisher.png",
+    image: "../assets/projectscreenshots/fire-extinguisher.png",
     githubLink:
       "https://github.com/shinaayomiadebisi/fire-extinguisher-retail-nuxt",
     liveUrl: "https://fire-extinguisher-rent-center-nuxt.netlify.app",
@@ -97,7 +94,7 @@ const projectsData = [
     title: "Ambient Sound Mixer",
     description:
       "Create your perfect atmosphere with this beautiful and intuitive ambient sound mixer. Mix and match various nature sounds, white noise, and ambient audio to enhance focus, relaxation, or sleep.",
-    image: "../portfolio-html-css-js/assets/projectscreenshots/screen.png",
+    image: "../assets/projectscreenshots/screen.png",
     githubLink: "https://github.com/shinaayomiadebisi/ambient-sound-mixer",
     liveUrl: "https://ambient-sound-mixerr.netlify.app",
     tools: [
@@ -112,7 +109,7 @@ const projectsData = [
     title: "Kanban js",
     description:
       "Kanban application built with vanilla javascript OOP, that allows creating tickets so easy in order to assign task to a user/ employee",
-    image: "../portfolio-html-css-js/assets/projectscreenshots/kanban-js.png",
+    image: "../assets/projectscreenshots/kanban-js.png",
     githubLink: "https://github.com/shinaayomiadebisi/kanban-js",
     liveUrl: "https://kanbanjs-oop-vanilla.netlify.app/",
     tools: [
@@ -129,46 +126,42 @@ const certificationsData = [
     id: 1,
     title: "Legacy Responsive Web Design V8",
     image:
-      "../portfolio-html-css-js/assets/certificates/www.freecodecamp.org_certification_responsive-web-design.png",
+      "../assets/certificates/www.freecodecamp.org_certification_responsive-web-design.png",
     certificateSiteUrl:
       "https://www.freecodecamp.org/certification/fcc1a77dbe6-4a33-4918-8f21-0026456bc832/responsive-web-design",
   },
   {
     id: 2,
     title: "Fullstack MERN Real Estate",
-    image:
-      "../portfolio-html-css-js/assets/certificates/Fullstack-Mern-Real-Estate.jpg",
+    image: "../assets/certificates/Fullstack-Mern-Real-Estate.jpg",
     certificateSiteUrl:
       "https://www.udemy.com/certificate/UC-37c0f482-4aca-4684-b31c-2685df5ebfeb/",
   },
   {
     id: 3,
     title: "C# Beginner Certification",
-    image: "../portfolio-html-css-js/assets/certificates/CSharp-Beginner.jpg",
+    image: "../assets/certificates/CSharp-Beginner.jpg",
     certificateSiteUrl:
       "https://www.udemy.com/certificate/UC-e8d17b9e-7b38-4a09-8cee-ba6986b08616",
   },
   {
     id: 4,
     title: "C# Intermediate Certification",
-    image:
-      "../portfolio-html-css-js/assets/certificates/CSharp-Intermediate.jpg",
+    image: "../assets/certificates/CSharp-Intermediate.jpg",
     certificateSiteUrl:
       "https://www.udemy.com/certificate/UC-5aa8e439-753a-4d61-8bf5-a06f31bfbf97",
   },
   {
     id: 5,
     title: "C# Professional Certification",
-    image:
-      "../portfolio-html-css-js/assets/certificates/CSharp-Professional.jpg",
+    image: "../assets/certificates/CSharp-Professional.jpg",
     certificateSiteUrl:
       "https://www.udemy.com/certificate/UC-9c903acb-4367-4846-8c69-aba7e38f3ee2",
   },
   {
     id: 6,
     title: "Introduction To Cybersecurity",
-    image:
-      "../portfolio-html-css-js/assets/certificates/Introduction-to-cybersecurity.png",
+    image: "../assets/certificates/Introduction-to-cybersecurity.png",
     certificateSiteUrl:
       "https://hacka-demy.thinkific.com/certificates/buppq9plav",
   },
