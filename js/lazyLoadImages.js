@@ -24,15 +24,15 @@ export class LazyLoadImages {
           img.src = img.dataset.src;
           // Optional: add a load event listener to remove a placeholder blur effect
           img.addEventListener("load", () => {
-            process.nextTick(() => {
-              img.classList.add("fade-in");
-            });
-            setImmediate(() => {
-              img.classList.remove("lazy"); // remove the 'lazy' class after loading
-            });
+            // process.nextTick(() => {
+            img.classList.add("fade-in");
+            // });
+            // setImmediate(() => {
+            img.classList.remove("lazy"); // remove the 'lazy' class after loading
+            // });
             setTimeout(() => {
               img.classList.remove("fade-in");
-            }, 2000);
+            }, 1500);
           });
           // Stop observing the image once it has loaded
           observer.unobserve(img);
